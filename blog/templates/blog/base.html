@@ -9,30 +9,10 @@
     </head>
     <body>
         <header class="page-header">
-            <div class="container"></div>
-            {% if user.is_authenticated %}
-    <a href="{% url 'post_new' %}" class="top-menu">
-        {% include './icons/file-earmark-plus.svg' %}
-    </a>
-{% endif %}
+            <div class="container">
                 <h1><a href="/">Blog by Ros-I</a></h1>
             </div>
           </header>
-
-          <article>
-            <time>publication: 15.12.2021, 12:03</time>
-            <h2><a href="">Quotes</a></h2>
-            <p>« Le succès c’est d’aller d’échec en échec sans perdre son enthousiasme. »
-
-                Winston Churchill</p>
-        </article>
-
-        <article>
-            <time>publication: 11.12.2021, 12:23</time>
-            <h2><a href="">Quels sont les meilleurs ingrédients naturels pour soigner les cheveux bouclés ?</a></h2>
-            <p>Les ingrédients pour nourrir les cheveux dans des masques avant-shampoing :
-                Les huiles végétales sont très efficaces pour nourrir les cheveux : Le choix est plus réduit en supermarché mais tu trouveras sans problème de l’huile de coco, d’olive, d’avocat, de sésame, de pépin de raisin, d’amande douce… Choisis des huiles avec l’inscription “vierge de première pression à froid” pour te garantir une qualité optimale. En masque avant shampoing, les huiles végétales apportent de la nutrition aux cheveux abimés, secs et cassants et soignent la fibre capillaire en profondeur.</p>
-        </article>
           <main class="container">
               <div class="row">
                   <div class="col">
